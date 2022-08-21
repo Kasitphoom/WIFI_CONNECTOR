@@ -1,0 +1,8 @@
+d:\Rust Project\WIFI_Connector\connector\target\debug\deps\webbrowser-64ab0ad066a320fb.rmeta: C:\Users\Phoom\.cargo\registry\src\github.com-1ecc6299db9ec823\webbrowser-0.7.1\src\lib.rs C:\Users\Phoom\.cargo\registry\src\github.com-1ecc6299db9ec823\webbrowser-0.7.1\src\windows.rs
+
+d:\Rust Project\WIFI_Connector\connector\target\debug\deps\webbrowser-64ab0ad066a320fb.d: C:\Users\Phoom\.cargo\registry\src\github.com-1ecc6299db9ec823\webbrowser-0.7.1\src\lib.rs C:\Users\Phoom\.cargo\registry\src\github.com-1ecc6299db9ec823\webbrowser-0.7.1\src\windows.rs
+
+C:\Users\Phoom\.cargo\registry\src\github.com-1ecc6299db9ec823\webbrowser-0.7.1\src\lib.rs:
+C:\Users\Phoom\.cargo\registry\src\github.com-1ecc6299db9ec823\webbrowser-0.7.1\src\windows.rs:
+
+# env-dep:WEBBROWSER_WASM_TARGET
