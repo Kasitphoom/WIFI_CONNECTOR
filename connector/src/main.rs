@@ -4,13 +4,11 @@ use reqwest::Client;
 use wifi_rs::WiFi;
 use wifi_rs::prelude::*;
 
-use std::collections::HashMap;
 use std::fmt::format;
 use std::io;
 use std::io::{stdin, stdout, Write, Read};
 use std::fs::File;
-use std::os::windows::process;
-use std::process::exit;
+
 
 use reqwest;
 
