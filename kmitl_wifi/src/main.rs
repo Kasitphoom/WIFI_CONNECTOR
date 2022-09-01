@@ -4,9 +4,7 @@ use reqwest::Client;
 use wifi_rs::WiFi;
 use wifi_rs::prelude::*;
 
-use std::fmt::format;
 use std::{thread, time};
-use std::io::{stdin, stdout, Write, Read};
 
 
 use reqwest;
@@ -38,7 +36,7 @@ async fn call_browser(){
 
     
 
-    let values = [("password", "Phoom2547!!Kmitl"), ("userName", "65011328")];
+    let values = [("password", ""), ("userName", "")];
 
     let client = reqwest::Client::new();
 
