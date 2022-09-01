@@ -5,9 +5,8 @@ use wifi_rs::WiFi;
 use wifi_rs::prelude::*;
 
 use std::fmt::format;
-use std::io;
+use std::{thread, time};
 use std::io::{stdin, stdout, Write, Read};
-use std::fs::File;
 
 
 use reqwest;
@@ -56,6 +55,10 @@ async fn call_browser(){
 fn main() -> Result<(), std::io::Error>{
 
     connect_wifi_new();
+
+    println!("\nWait for 5 seconds......");
+
+    thread::sleep(time::Duration::from_secs(5));
 
     call_browser();
 
